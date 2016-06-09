@@ -1,11 +1,11 @@
 # SimpleBusBridge
-> PHP component that glues BenGorUser with Matthias Noback's SimpleBus
+> Adapter to make User compatible with Matthias Noback's SimpleBus
 
 [![Build Status](https://travis-ci.org/BenGorUser/SimpleBusBridge.svg?branch=master)](https://travis-ci.org/BenGorUser/SimpleBusBridge)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/BenGorUser/SimpleBusBridge/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/BenGorUser/SimpleBusBridge/?branch=master)
 [![Total Downloads](https://poser.pugx.org/bengor-user/simple-bus-bridge-bundle/downloads)](https://packagist.org/packages/bengor-user/simple-bus-bridge-bundle/)
-[![Latest Stable Version](https://poser.pugx.org/bengor-user/simple-bus-bridge-bundle//v/stable.svg)](https://packagist.org/packages/bengor-user/simple-bus-bridge-bundle/)
-[![Latest Unstable Version](https://poser.pugx.org/bengor-user/simple-bus-bridge-bundle//v/unstable.svg)](https://packagist.org/packages/bengor-user/simple-bus-bridge-bundle/)
+[![Latest Stable Version](https://poser.pugx.org/bengor-user/simple-bus-bridge-bundle/v/stable.svg)](https://packagist.org/packages/bengor-user/simple-bus-bridge-bundle/)
+[![Latest Unstable Version](https://poser.pugx.org/bengor-user/simple-bus-bridge-bundle/v/unstable.svg)](https://packagist.org/packages/bengor-user/simple-bus-bridge-bundle/)
 
 ##Requirements
 PHP >= 5.5
@@ -17,9 +17,7 @@ $ composer require bengor-user/simple-bus-bridge
 ```
 
 ##Documentation
-All the documentation is stored in the `docs` folder.
-
-[Show me the docs!](docs/index.md)
+All the documentation is stored inside the [user library](https://github.com/BenGorUser/User/blob/master/docs/index.md).
 
 ##Tests
 This library is completely tested by **[PHPSpec][1], SpecBDD framework for PHP**.
@@ -30,7 +28,7 @@ $ vendor/bin/phpspec run -fpretty
 ```
 
 ##Contributing
-This bundle follows PHP coding standards, so pull requests need to execute the Fabien Potencier's [PHP-CS-Fixer][5].
+This library follows PHP coding standards, so pull requests need to execute the Fabien Potencier's [PHP-CS-Fixer][5].
 Furthermore, if the PR creates some not-PHP file remember that you have to put the license header manually. In order
 to simplify we provide a Composer script that wraps all the commands related with this process.
 ```bash
@@ -46,13 +44,13 @@ If you would like to contribute it is a good point to follow Symfony contributio
 in the [Submitting a Patch][3] section and use the [Pull Request Template][4].
 
 ##Credits
-This bundle is created by:
+This library is created by:
 >
 **@benatespina** - [benatespina@gmail.com](mailto:benatespina@gmail.com)<br>
 **@gorkalaucirica** - [gorka.lauzirika@gmail.com](mailto:gorka.lauzirika@gmail.com)
 
 ##Licensing Options
-[![License](https://poser.pugx.org/bengor-user/simple-bus-bridge-bundle//license.svg)](https://github.com/BenGorUser/SimpleBusBridge/blob/master/LICENSE)
+[![License](https://poser.pugx.org/bengor-user/simple-bus-bridge-bundle/license.svg)](https://github.com/BenGorUser/SimpleBusBridge/blob/master/LICENSE)
 
 [1]: http://www.phpspec.net/
 [2]: http://symfony.com/doc/current/contributing/code/index.html

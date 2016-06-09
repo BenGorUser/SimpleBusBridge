@@ -1,9 +1,9 @@
 {
     "name": "bengor-user/simple-bus-bridge",
-    "description": "PHP component that glues BenGorUser with Matthias Noback's SimpleBus",
-    "keywords": ["user", "bundle", "symfony", "simple-bus", "ddd"],
+    "description": "Adapter to make User compatible with Matthias Noback's SimpleBus",
+    "keywords": ["user", "adapter", "simple-bus", "ddd"],
     "license": "MIT",
-    "type": "symfony-bundle",
+    "type": "library",
     "authors": [
         {
             "name": "Beñat Espiña Diaz",
