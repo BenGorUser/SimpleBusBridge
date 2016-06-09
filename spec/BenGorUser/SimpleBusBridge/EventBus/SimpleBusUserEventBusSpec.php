@@ -1,14 +1,21 @@
 <?php
 
+/*
+ * This file is part of the BenGorUser package.
+ *
+ * (c) Beñat Espiña <benatespina@gmail.com>
+ * (c) Gorka Laucirica <gorka.lauzirika@gmail.com>
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ */
+
 namespace spec\BenGorUser\SimpleBusBridge\EventBus;
 
 use BenGorUser\SimpleBusBridge\EventBus\SimpleBusUserEventBus;
-use BenGorUser\User\Application\Command\SignUp\SignUpUserCommand;
 use BenGorUser\User\Domain\Model\Event\UserEvent;
-use BenGorUser\User\Domain\Model\Event\UserRegistered;
 use BenGorUser\User\Infrastructure\Domain\Model\UserEventBus;
 use PhpSpec\ObjectBehavior;
-use Prophecy\Argument;
 use SimpleBus\Message\Bus\MessageBus;
 
 /**
